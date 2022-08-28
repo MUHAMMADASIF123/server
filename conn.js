@@ -11,4 +11,4 @@ dbobj.on('connected',()=>{
 dbobj.on('error',()=>{
     console.log("mongodb not connected ")
 })
-module.exports=mongoose
+module.exports=mongoose 
