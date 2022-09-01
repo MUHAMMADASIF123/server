@@ -4,7 +4,7 @@ const express=require('express')
 const app=express();
 const Port=process.env.Port | 5000
 const dbfile=require('./conn')
-const postroute=require('./routes/post')
+const postroute=require('./server/routes/post')
 
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended:'true'}))

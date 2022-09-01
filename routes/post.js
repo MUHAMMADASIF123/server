@@ -27,19 +27,19 @@ const registration = new mongoose.Schema({
     required : true
   },
   email: {
-    type: String,
+    type:String,
     required : true
   },
   cnic:{
-    type:String,
+    type:Number,
     required:true
   },
   password: {
-    type: String,
+    type: Number,
     required : true
   },
   cpassword: {
-    type: String,
+    type: Number,
     required : true
   },
   userid: {
